@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valyuta ayriboshlash</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Valyuta ayriboshlash</h1>
+    <div class="exchange-container">
+      <div class="input-group">
+        <input type="number" id="amount-input" placeholder="Summa" />
+        <select id="from-currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="RUB">RUB</option>
+          <option value="SUM">SUM</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <input type="number" id="result-input" readonly />
+        <select id="to-currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="RUB">RUB</option>
+          <option value="SUM">SUM</option>
+        </select>
+      </div>
+      <button id="exchange-btn">Ayriboshlash</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
